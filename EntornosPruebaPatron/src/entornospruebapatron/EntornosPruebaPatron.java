@@ -17,7 +17,7 @@ public class EntornosPruebaPatron {
         //Se utiliza el metodo getInstance para controlar la instanciancion.
         //Solamente existira un objeto unico para la clase.
         public static  Singleton getInstance(){
-            if (instance = null) {
+            if (instance = null){
                 instance = new
             }
         }
