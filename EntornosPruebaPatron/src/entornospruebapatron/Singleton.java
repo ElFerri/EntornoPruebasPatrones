@@ -4,12 +4,15 @@ package entornospruebapatron;
  *
  * @author Ferran
  */
-public class EntornosPruebaPatron {
 
+
+    
+    public class Singleton {
+        
     /**
      * @param args the command line arguments
      */
-    public class Singleton {
+        
         private static Singleton instance = null;
         private Singleton() {
             //Este metodo existe solamente para evitar la instanciancion.
